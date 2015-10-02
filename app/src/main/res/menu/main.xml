@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Action Bar Search"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView" />
+    <item android:id="@+id/action_apps_all"
+        android:title="Apps by all developers"
+        android:orderInCategory="1"
+        android:showAsAction="never"/>
+    <item android:id="@+id/action_apps_friends"
+        android:title="Apps by my friends"
+        android:orderInCategory="2"
+        android:showAsAction="never"/>
+    <item android:id="@+id/action_logout"
+        android:title="@string/action_logout"
+        android:orderInCategory="3"
+        android:showAsAction="never" />
+</menu>
